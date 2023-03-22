@@ -1,0 +1,95 @@
+$main: #1b1d40;
+$off-color: #3cdeb3;
+$complementary-color: #8f8f8f;
+$filler: #ffffff;;
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background: linear-gradient(to right, $off-color, $main);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    width: 100%;
+    margin-top: 2rem;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 1.5rem;
+    ul{
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+        color: $filler;
+    }
+    li{
+        display: inline-block;
+        color: $filler;
+    }
+    a{
+        text-decoration: none;
+    }
+    :visited{
+        color: $filler;
+    }
+}
+
+.main-para{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $filler;
+    margin-top: 3rem;
+    padding-block: 4rem;
+    font-size: 1.3rem;
+    position: relative;
+    isolation: isolate;
+    a{
+        text-decoration: none;
+    }
+    span, a{
+        font-weight: 700;
+        color: $off-color;
+        font-size: 1.8rem;
+    }
+    ul{
+        width: 35%;
+        display: flex;
+        justify-content: space-around;
+        color: $filler;
+        padding-top: 2rem;
+    }
+    li{
+        display: inline-block;
+        color: $filler;
+    }
+    p{
+        padding-top: 2rem;
+        width: 70%;
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+    }
+    :visited{
+        color: $off-color;
+    }
+    ::after{
+        content: '';
+        will-change: transform;
+        background: linear-gradient( to left, $complementary-color, $main);
+        position: absolute;
+        z-index: -1;
+        inset: 0;
+        transform: skewY(5deg);
+        border-bottom: 1px solid $filler;
+    }
+}
