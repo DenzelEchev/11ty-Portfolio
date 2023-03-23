@@ -5,7 +5,7 @@
 }
 
 body {
-  background: linear-gradient(to right, #3cdeb3, #1b1d40);
+  background: linear-gradient(to right, #8f8f8f, #1b1d40);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -61,7 +61,7 @@ nav :visited {
   font-size: 1.8rem;
 }
 .main-para ul {
-  width: 35%;
+  width: 20%;
   display: flex;
   justify-content: space-around;
   color: #ffffff;
@@ -81,15 +81,4 @@ nav :visited {
 }
 .main-para :visited {
   color: #3cdeb3;
-}
-.main-para ::after {
-  content: "";
-  will-change: transform;
-  background: linear-gradient(to left, #8f8f8f, #1b1d40);
-  position: absolute;
-  z-index: -1;
-  inset: 0;
-  transform: skewY(5deg);
-  border-bottom: 1px solid #ffffff;
-  border-top: 1px solid #ffffff;
 }

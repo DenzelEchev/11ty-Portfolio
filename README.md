@@ -1,5 +1,6 @@
 # 11ty-Portfolio
 Doing my portfolio in 11ty
+Don't forget to npm install the package-lock.json
 
 checklist:
 - [] fill out content for each page

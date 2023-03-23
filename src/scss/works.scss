@@ -9,7 +9,7 @@ $filler: #ffffff;;
     margin: 0;
 }
 body{
-    background: linear-gradient(to right, $off-color, $main);
+    background: linear-gradient(to right, $complementary-color, $main);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,7 +23,7 @@ nav{
     justify-content: center;
     width: 100%;
     font-size: 1.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
     ul{
         width: 40%;
         display: flex;
@@ -32,7 +32,6 @@ nav{
     }
     li{
         display: inline-block;
-        color: $filler;
     }
     a{
         text-decoration: none;
@@ -43,5 +42,58 @@ nav{
 }
 h1{
     color: $filler;
-    padding: 10px 0;
+    padding: 2rem 0;
+}
+h3{
+    padding-top: 1rem;
+    color: $off-color;
+}
+.project-holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    padding-bottom: 4rem;
+}
+.project-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: $filler;
+    background: rgba($color: $main, $alpha: .4);
+    margin: 1rem 0;
+    ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        color: $filler;
+    }
+    li{
+        display: inline-block;
+    }
+    .i-holder{
+        padding-top: 1rem;
+        width: 35%;
+        font-size: 2rem;
+    }
+    p{
+        padding: 1.2rem 0;
+    }
+    .project-div-info{
+        font-size: 1.3rem;
+        width: 60%;
+        text-align: start;
+        padding-left: 1rem;
+    }
+}
+.li1-img{
+    width: 45px;
+    height: 45px;
+}
+.li2-img{
+    width: 45px;
+    height: 45px;
 }
