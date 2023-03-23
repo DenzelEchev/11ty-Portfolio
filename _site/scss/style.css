@@ -41,12 +41,13 @@ nav :visited {
 
 .main-para {
   width: 100%;
+  height: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: #ffffff;
-  margin-top: 3rem;
-  padding-block: 4rem;
+  margin-top: 8rem;
+  padding-block: 9rem;
   font-size: 1.3rem;
   position: relative;
   isolation: isolate;
@@ -90,4 +91,5 @@ nav :visited {
   inset: 0;
   transform: skewY(5deg);
   border-bottom: 1px solid #ffffff;
+  border-top: 1px solid #ffffff;
 }

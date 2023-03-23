@@ -21,6 +21,7 @@ nav {
   justify-content: center;
   width: 100%;
   font-size: 1.5rem;
+  margin-bottom: 2rem;
 }
 nav ul {
   width: 40%;
@@ -37,4 +38,32 @@ nav a {
 }
 nav :visited {
   color: #ffffff;
+}
+
+h1 {
+  color: #ffffff;
+  padding: 10px 0;
+}
+
+h2 {
+  color: #ffffff;
+  padding: 10px 0;
+}
+
+.content-holder {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+.content-holder img {
+  width: 50%;
+}
+.content-holder p {
+  padding-top: 3rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #ffffff;
+  width: 40%;
 }

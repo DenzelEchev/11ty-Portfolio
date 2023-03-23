@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include "basehead.njk" %}
+    <link rel="stylesheet" href="/{{ "scss/works.css" | url }}"/>
+    <title>{{title}}</title>
+</head>
+<header>
+    {% include "navbar.njk"%}
+</header>
+<body>
+    {{ content | safe }}
+</body>
+</html>
