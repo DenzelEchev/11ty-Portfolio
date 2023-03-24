@@ -1,0 +1,42 @@
+$main: #1b1d40;
+$off-color: #3cdeb3;
+$complementary-color: #8f8f8f;
+$filler: #ffffff;;
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background: linear-gradient(to right, $complementary-color, $main);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    width: 100%;
+    margin-top: 2rem;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 1.5rem;
+    ul{
+        width: 40%;
+        display: flex;
+        justify-content: space-around;
+        color: $filler;
+    }
+    li{
+        display: inline-block;
+        color: $filler;
+    }
+    a{
+        text-decoration: none;
+    }
+    :visited{
+        color: $filler;
+    }
+}

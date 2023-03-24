@@ -4,6 +4,7 @@
   "description": "Doing my portfolio in 11ty",
   "main": "index.js",
   "scripts": {
+    "build": "npx @11ty/eleventy",
     "start": "eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -1,3 +1,4 @@
+// @import "/src/scss/base.scss"; Get this to work and cut down on reused code
 $main: #1b1d40;
 $off-color: #3cdeb3;
 $complementary-color: #8f8f8f;
@@ -48,7 +49,7 @@ nav{
     flex-direction: column;
     align-items: center;
     color: $filler;
-    margin-top: 8rem;
+    margin-top: 6rem;
     padding-block: 9rem;
     font-size: 1.3rem;
     position: relative;
