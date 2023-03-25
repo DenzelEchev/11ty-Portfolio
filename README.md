@@ -1,4 +1,5 @@
 # 11ty-Portfolio
+[![Netlify Status](https://api.netlify.com/api/v1/badges/33c0e217-1f8a-4255-9273-ce183e31960d/deploy-status)](https://app.netlify.com/sites/stunning-daifuku-16e549/deploys)
 Doing my portfolio in 11ty
 Don't forget to npm install the package-lock.json
 
