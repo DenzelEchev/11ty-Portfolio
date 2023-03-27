@@ -10,5 +10,5 @@ checklist:
 - [] set up front matter in each page
 - [] set up blog and pagination
 - [x] set up css(using sass for this project)
-- [] set up scss vars
+- [x] set up scss vars
 - [] light and dark mode
