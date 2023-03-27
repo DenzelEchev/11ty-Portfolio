@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
     {% include "basehead.njk" %}
-    <link rel="stylesheet" href="/{{ "scss/style.css" | url }}"/>
-    <title>{{title}}</title>
+    {% block head %}{% endblock %}
 </head>
 <header>
     {% include "navbar.njk"%}
 </header>
 <body>
-    {{ content | safe }}
+    {% block content %}
+        {{ content | safe }}
+    {% endblock %}
 </body>
 </html>

@@ -32,40 +32,12 @@ nav{
     li{
         display: inline-block;
         color: $filler;
+        font-weight: 700;
     }
     a{
         text-decoration: none;
         color: $filler;
-    }
-    :visited{
-        color: $filler;
-    }
-}
-h1{
-    color: $filler;
-    margin-top: 2rem;
-}
 
-.blog-list{
-    margin-top: 4rem;
-    width: 85%;
-    li{
-        display: flex;
-        justify-content: space-between;
-        color: $filler;
-        border: 1px solid $filler;
-        border-radius: 4px;
-        padding: 1.4rem;
-        list-style: none;
-        margin-top: 1.5rem;
-        transition: background-color 0.9s;
-    }
-    a{
-        text-decoration: none;
-        color: $filler;
-    }
-    :hover{
-        background-color: $main;
     }
     :visited{
         color: $filler;

@@ -3,6 +3,9 @@ const sass = require("sass")
 module.exports = function (eleventyConfig){
     eleventyConfig.addPassthroughCopy("src/assets/")
     eleventyConfig.addTemplateFormats("scss");
+    eleventyConfig.addCollection('post', function(collectionApi) {
+        return collectionApi.getFilteredByGlob('src/blog/posts/**/*.md')
+    })
 
     eleventyConfig.addExtension("scss", {
         outputFileExtension: "css",

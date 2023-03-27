@@ -1,14 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    {% include "basehead.njk" %}
+{% extends "layouts/base.njk" %}
+{% block head %}
     <link rel="stylesheet" href="/{{ "scss/works.css" | url }}"/>
     <title>{{title}}</title>
-</head>
-<header>
-    {% include "navbar.njk"%}
-</header>
-<body>
-    {{ content | safe }}
-</body>
-</html>
+{% endblock %}

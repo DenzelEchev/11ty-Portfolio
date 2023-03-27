@@ -31,42 +31,12 @@ nav ul {
 nav li {
   display: inline-block;
   color: #ffffff;
+  font-weight: 700;
 }
 nav a {
   text-decoration: none;
   color: #ffffff;
 }
 nav :visited {
-  color: #ffffff;
-}
-
-h1 {
-  color: #ffffff;
-  margin-top: 2rem;
-}
-
-.blog-list {
-  margin-top: 4rem;
-  width: 85%;
-}
-.blog-list li {
-  display: flex;
-  justify-content: space-between;
-  color: #ffffff;
-  border: 1px solid #ffffff;
-  border-radius: 4px;
-  padding: 1.4rem;
-  list-style: none;
-  margin-top: 1.5rem;
-  transition: background-color 0.9s;
-}
-.blog-list a {
-  text-decoration: none;
-  color: #ffffff;
-}
-.blog-list :hover {
-  background-color: #1b1d40;
-}
-.blog-list :visited {
   color: #ffffff;
 }
