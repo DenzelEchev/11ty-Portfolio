@@ -27,6 +27,7 @@ nav ul {
   display: flex;
   justify-content: space-around;
   color: #ffffff;
+  font-weight: 700;
 }
 nav li {
   display: inline-block;

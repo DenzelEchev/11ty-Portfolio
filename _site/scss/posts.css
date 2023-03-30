@@ -40,3 +40,14 @@ nav a {
 nav :visited {
   color: #ffffff;
 }
+
+h1 {
+  color: #ffffff;
+  margin: 3rem 0;
+}
+
+p {
+  width: 75%;
+  color: #ffffff;
+  font-size: 1.5rem;
+}

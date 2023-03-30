@@ -1,7 +1,7 @@
 ---
 layout: layouts/post.njk
 title: Second Post
-description: My first blog post on my site
+description: My second blog post on my site
 date: "2023-03-27"
 author: Denzel M Echevarria
 categories:
