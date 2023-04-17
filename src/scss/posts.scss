@@ -13,6 +13,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: $filler;
 }
 header{
     width: 100%;
@@ -48,8 +49,12 @@ h1{
     color: $filler;
     margin: 3rem 0;
 }
+h2{
+    color: $filler;
+
+}
 p{
-    width: 75%;
+    width: 60%;
     color: $filler;
     font-size: 1.5rem;
 }
