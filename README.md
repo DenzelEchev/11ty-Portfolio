@@ -1,14 +1,8 @@
-# 11ty-Portfolio
-[![Netlify Status](https://api.netlify.com/api/v1/badges/33c0e217-1f8a-4255-9273-ce183e31960d/deploy-status)](https://app.netlify.com/sites/stunning-daifuku-16e549/deploys)
-<br/>
-Doing my portfolio in 11ty
-Don't forget to npm install the package-lock.json
+# React + Vite
 
-checklist:
-- [] fill out content for each page
-- [x] set up navigation
-- [] set up front matter in each page
-- [] set up blog and pagination
-- [x] set up css(using sass for this project)
-- [x] set up scss vars
-- [] light and dark mode
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
