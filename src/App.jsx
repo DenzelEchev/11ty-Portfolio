@@ -1,20 +1,28 @@
 import './App.css'
-import { useState } from 'react'
+
 
 function App() {
-  const [title, selectedTitle] = useState("selected")
-
-  function changeSelectedTitle(title) {
-    selectedTitle(title)
-  }
 
   return (
     <>
-      <nav> Denzel Echevarria </nav>
-      <main>
-        <h1>{()=>{changeSelectedTitle}}{title}</h1>
-      </main>
-      
+      <h1> DenzelEchevarria.dev </h1>
+      <nav>
+
+        <ul>
+          <li>
+            <a href="/" onClick={"#"}>About</a>
+          </li>
+
+          <li>
+            <a href="/" onClick={"#"}>Projects</a>
+          </li>
+
+          <li>
+            <a href="/about" onClick={"#"}>Blog</a>
+          </li>
+        </ul>
+
+      </nav>
     </>
     
   )
