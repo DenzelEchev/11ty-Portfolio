@@ -33,11 +33,11 @@ function App() {
         </div>
 
         <div className={current === "projects" ? "display" : "hidden"}>
-          <p>projects</p>
+          <p>Projects</p>
         </div>
 
         <div className={current === "blog" ? "display" : "hidden"}>
-          <p>blog posts</p>
+          <p>Blog Posts</p>
         </div>
 
       </div>
