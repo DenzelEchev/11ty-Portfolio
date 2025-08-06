@@ -15,6 +15,6 @@ checklist:
 - [] light and dark mode
 
 ## WIP:
-Site is being revamped with React(Vite+JS)
-Get design influence from Dribble [dribble.com]
-Fix site to be responsive (possibly more simple site/business card like)
+- Site is being revamped with React(Vite+JS)
+- Get design influence from Dribble [dribble.com]
+- Fix site to be responsive (possibly more simple site/business card like)
